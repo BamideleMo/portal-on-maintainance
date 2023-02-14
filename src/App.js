@@ -1,4 +1,4 @@
-
+import logo from './JETS-logo.png';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
           <Route path="*" element={
             <div className="text-center my-24 space-x-4 drop-shadow-lg p-6">
               <div className="text-center">
-                <img src="JETS-logo.png" alt="Logo" className="inline w-20 animate-bounce" />
+                <img src={logo} alt="Logo" className="inline w-20 animate-bounce" />
               </div>
-              <h2 className=" my-12 text-2xl text-blue-900 font-semibold">Portal Currently Undegoing Routine Maintenance</h2>
+              <h2 className=" my-12 text-2xl text-blue-900 font-semibold">Portal Currently Undergoing Routine Maintenance</h2>
               <h3 className="font-semibold">We should be back online:<br />Wednesday, 15-02-2023</h3>
               <p className="mt-4">For more information please contact the ICT department. Thank you for your patience.</p>
             </div>
