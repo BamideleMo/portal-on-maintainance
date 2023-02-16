@@ -15,8 +15,8 @@ function App() {
                 <img src={logo} alt="Logo" className="inline w-20 animate-bounce" />
               </div>
               <h2 className=" my-12 text-2xl text-blue-900 font-semibold">Portal Currently Undergoing Routine Maintenance</h2>
-              <h3 className="font-semibold">We should be back online:<br />Wednesday, 15-02-2023</h3>
-              <p className="mt-4">For more information please contact the ICT department. Thank you for your patience.</p>
+              <h3 className="font-semibold">We should be back online:<br />Friday, 17-02-2023</h3>
+              <p className="mt-4">For more information please contact the ICT department. <b>Thank you for your patience</b>.</p>
             </div>
           } />
         </Routes>
